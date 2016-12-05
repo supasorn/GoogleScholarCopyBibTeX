@@ -1,0 +1,18 @@
+{
+  "name": "Google Scholar Bibtex",
+  "version": "1.0",
+  "description": "Show Bibtex on Google Scholar Search Page",
+  "content_scripts": [
+    {
+      "matches": [ "https://scholar.google.com/*", "http://scholar.google.com/*"],
+      "js": ["jquery-3.1.1.min.js", "clipboard.min.js", "script.js"]
+    }
+  ],
+  "permissions":  [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "clipboardWrite"
+  ],
+  "manifest_version": 2
+}
