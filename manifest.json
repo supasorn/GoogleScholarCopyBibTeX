@@ -4,7 +4,10 @@
   "description": "Show Bibtex on Google Scholar Search Page",
   "content_scripts": [
     {
-      "matches": [ "https://scholar.google.com/*", "http://scholar.google.com/*"],
+      "matches": [
+        "https://scholar.google.com/*", "http://scholar.google.com/*",
+        "https://scholar.google.de/*", "http://scholar.google.de/*"
+      ],
       "js": ["jquery-3.1.1.min.js", "clipboard.min.js", "script.js"]
     }
   ],
