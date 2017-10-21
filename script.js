@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("a:contains('Import into BibTeX')").click(function(e) {
+  $("a:contains('BibTeX')").click(function(e) {
     var $a = $(this);
     $.get(this.href, function(data) {
       clipboard.copy(data);
