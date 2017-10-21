@@ -5,8 +5,22 @@
   "content_scripts": [
     {
       "matches": [
+        "https://scholar.google.be/*", "http://scholar.google.be/*",
+        "https://scholar.google.ca/*", "http://scholar.google.ca/*",
+        "https://scholar.google.com.hk/*", "http://scholar.google.com.hk/*",
         "https://scholar.google.com/*", "http://scholar.google.com/*",
-        "https://scholar.google.de/*", "http://scholar.google.de/*"
+        "https://scholar.google.co.jp/*", "http://scholar.google.co.jp/*",
+        "https://scholar.google.co.uk/*", "http://scholar.google.co.uk/*",
+        "https://scholar.google.de/*", "http://scholar.google.de/*",
+        "https://scholar.google.dk/*", "http://scholar.google.dk/*",
+        "https://scholar.google.es/*", "http://scholar.google.es/*",
+        "https://scholar.google.fi/*", "http://scholar.google.fi/*",
+        "https://scholar.google.fr/*", "http://scholar.google.fr/*",
+        "https://scholar.google.it/*", "http://scholar.google.it/*",
+        "https://scholar.google.nl/*", "http://scholar.google.nl/*",
+        "https://scholar.google.no/*", "http://scholar.google.no/*",
+        "https://scholar.google.pt/*", "http://scholar.google.pt/*",
+        "https://scholar.google.se/*", "http://scholar.google.se/*"
       ],
       "js": ["jquery-3.1.1.min.js", "clipboard.min.js", "script.js"]
     }
