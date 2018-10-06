@@ -1,7 +1,7 @@
 {
   "name": "Google Scholar Bibtex",
-  "version": "1.0",
-  "description": "Show Bibtex on Google Scholar Search Page",
+  "version": "1.23",
+  "description": "Quickly copy BibTex on Google Scholar with 1 click.",
   "content_scripts": [
     {
       "matches": [
@@ -20,6 +20,7 @@
         "https://scholar.google.nl/*", "http://scholar.google.nl/*",
         "https://scholar.google.no/*", "http://scholar.google.no/*",
         "https://scholar.google.pt/*", "http://scholar.google.pt/*",
+        "https://scholar.google.co.th/*", "http://scholar.google.co.th/*",
         "https://scholar.google.se/*", "http://scholar.google.se/*"
       ],
       "js": ["jquery-3.1.1.min.js", "clipboard.min.js", "script.js"]
@@ -31,5 +32,8 @@
     "https://*/*",
     "clipboardWrite"
   ],
-  "manifest_version": 2
+  "manifest_version": 2,
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
 }
