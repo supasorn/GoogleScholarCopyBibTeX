@@ -1,6 +1,6 @@
 {
-  "name": "Google Scholar Bibtex",
-  "version": "1.23",
+  "name": "BibTex Quick Copy for Google Scholar",
+  "version": "1.24",
   "description": "Quickly copy BibTex on Google Scholar with 1 click.",
   "content_scripts": [
     {
