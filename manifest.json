@@ -21,7 +21,8 @@
         "https://scholar.google.no/*", "http://scholar.google.no/*",
         "https://scholar.google.pt/*", "http://scholar.google.pt/*",
         "https://scholar.google.co.th/*", "http://scholar.google.co.th/*",
-        "https://scholar.google.se/*", "http://scholar.google.se/*"
+        "https://scholar.google.se/*", "http://scholar.google.se/*",
+        "https://www.google.com/*"
       ],
       "js": ["jquery-3.1.1.min.js", "clipboard.min.js", "script.js"]
     }
